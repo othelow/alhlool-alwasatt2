@@ -37,8 +37,6 @@ body, html{
   height: 100px;
   top: 105px;
 }
-
-
 .mainheader a:link, .mainheader a:visited{
   color: white;
   padding: 10px 40px;
@@ -155,15 +153,6 @@ body, html{
   background: linear-gradient(to right,#eb7dfa, #19d7f9);
  
 }
-
-
-
-
-
-
-
-
-
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.85;
@@ -228,43 +217,26 @@ body, html{
 .ptext .border.trans{
   background-color:transparent;
 }
-
-@media(max-width:568px){
-  .pimg1, .pimg2, .pimg3{
-    background-attachment:scroll;
-  }
-}
-
-
-
 /* flib*/
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-
 }
-
 .card{
   cursor: pointer;
   width: 300px;
   height: 150px;
   margin-top: 270px;
-  
 }
-
 .front,.back{
   width: 100%;
   height: 100%;
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
-  
-
 }
-
-
 .front{
   transform: perspective(600px) rotateY(0deg);
 }
@@ -272,28 +244,21 @@ body, html{
     width: 100%;
     height: 100%;
     position: center;
-  
-  
 }
 .back{
   background: #2c3e50;
-  
   transform: perspective(600px) rotateY(180deg);
 }
 .card .back  .rer{
   width: 100%;
   height: 100%;
-  
   position: center;
 }
-
-
 .back-content{
   color: #fff;
   text-align: center;
   font-size: 10px;
   display: inline;
-  
 }
 .back-content h2{
    line-height: 3px;
@@ -304,14 +269,11 @@ body, html{
   color: orange;
 }
 .card:hover > .front{
-
 transform: perspective(600px) rotateY(-180deg);
-
 }
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-
 .sm img{
   display: inline-flex;
   width: 15px;
@@ -322,7 +284,6 @@ transform: perspective(600px) rotateY(-180deg);
   font-size: 14px;
   transition: 0.4s;
   border-radius: 50%;
-  
 }
 .sm img:hover{
   background: #2c3e50;
@@ -331,3 +292,65 @@ transform: perspective(600px) rotateY(-180deg);
 .back .sm img{
   color: white;
 }
+@media(max-width:356px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+  .mainheader{
+    visibility: hidden;
+  }
+  .mainheader .cool{
+    visibility: visible;
+  }
+  .card{
+    margin-left: 10px;
+  }
+ .team-info,.team-item{
+  width: 100%;
+  display: block;
+}
+.team-item{
+  margin-left: 13px;
+}
+.ptext{
+  width: 106%;
+  height: 200px;
+}
+.border{
+  font-size: 6px;
+  text-align: center;
+}
+}
+
+@media(max-width:1250px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+  .mainheader{
+    visibility: hidden;
+  }
+  .mainheader .cool{
+    visibility: visible;
+  }
+  .card{
+    margin-left: 10px;
+  }
+ .team-info,.team-item,.team-img img{
+  width: 100%;
+  display: block;
+  border-radius: 100%;
+}
+.team-item{
+  margin-left: 13px;
+}
+.ptext{
+  width: 106%;
+  height: 200px;
+}
+.border{
+  font-size: 6px;
+  text-align: center;
+}
+}
+
+
