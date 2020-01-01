@@ -335,16 +335,15 @@ transform: perspective(600px) rotateY(-180deg);
   .card{
     margin-left: 10px;
   }
- .team-info,.team-item,.team-img img{
-  width: 80%;
+ .team-info,.team-item,.team-img{
+  width: 100%;
   display: block;
-  border-radius: 100%;
-}
+ }
 .team-item{
   margin-left: 13px;
 }
 .ptext{
-  width: 106%;
+  width: 100%;
   height: 200px;
 }
 .border{
