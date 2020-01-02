@@ -302,8 +302,11 @@ transform: perspective(600px) rotateY(-180deg);
   .mainheader .cool{
     visibility: visible;
   }
-  .card{
-    margin-left: 10px;
+   width: 80%;
+    position:absolute;
+    top: 30%;
+    left: 47%;
+    transform: translate(-50%,-50%);
   }
  .team-info,.team-item{
   width: 100%;
