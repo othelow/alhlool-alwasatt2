@@ -233,10 +233,10 @@ transform: perspective(600px) rotateY(-180deg);
    width: 100%;
   }
   .pimg1 .mainheader img{
-    width: 150px;
+    width: 130px;
     position: absolute;
     z-index: 10;
-    top: 115px;
+    top: 110px;
   }
   .mainheader nav{
     background-image: linear-gradient(to right,#db1bf6, #19d7f9);
