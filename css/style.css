@@ -228,7 +228,7 @@ transform: perspective(600px) rotateY(-180deg);
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-@media (min-width:356px) and (max-width:540px){
+@media screen and (max-width: 680px){
   body{
    width: 100%;
   }
