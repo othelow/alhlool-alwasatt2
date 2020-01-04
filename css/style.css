@@ -228,18 +228,36 @@ transform: perspective(600px) rotateY(-180deg);
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-@media screen and (max-width: 680px){
+@media screen and (min-width: 541px) and (max-width: 1024px){
+  .team-item{
+    width: 27%;
+    float: left;
+    padding: 8px 3px;
+  }
+  .team-info .team-info-title{
+    font-size: 10px;
+ }
+ .mainheader nav .nav-title{
+  width: 30%;
+  position: absolute;
+  margin: 0;
+  color: #fff;
+  top: 55%;
+  left: 80%;
+  font-size: 16px;
+} 
+}
+@media screen and (max-width: 540px){
   body{
    width: 100%;
   }
   .pimg1 .mainheader img{
-    width: 130px;
+    width: 170px;
     position: absolute;
     z-index: 10;
-    top: 110px;
+    top: 115px;
   }
   .mainheader nav{
-    background-image: linear-gradient(to right,#db1bf6, #19d7f9);
     height: 70px;
     position: relative;
   }
@@ -250,15 +268,15 @@ transform: perspective(600px) rotateY(-180deg);
     color: #fff;
     top: 55%;
     left: 80%;
-    font-size: 1rem;
+    font-size: 16px;
     
   } 
   .team-content{
     overflow: hidden;
   }
   .team-item{
-    width: 100px;
-    height: 100px;
+    width: 26%;
+    margin-left: 15px;
     float: left;
     padding: 8px 3px;
     
@@ -275,13 +293,8 @@ transform: perspective(600px) rotateY(-180deg);
   }
   .container{
     width: 100%;
-    margin: auto 30px;
   }
-  .pd-y{
-    padding: 50px 0;
-    
-    margin-left: 37px;
-  }
+ 
   .section-header{
     
     margin-bottom: -30px;
@@ -291,7 +304,7 @@ transform: perspective(600px) rotateY(-180deg);
     margin-left: -37px;
   }
   .section-header .line{
-    margin-left: 160px;
+    margin-left: 210px;
     width: 100px;
   }
   .pimg1{
