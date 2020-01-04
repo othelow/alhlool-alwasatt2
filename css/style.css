@@ -308,7 +308,7 @@ transform: perspective(600px) rotateY(-180deg);
     width: 100px;
   }
   .pimg1{
-    min-height:70%;
+    min-height:90%;
   }
   .pimg2{
     min-height:300px;
